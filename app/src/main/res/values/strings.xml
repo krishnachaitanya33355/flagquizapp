@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlagQuiz</string>
+    <string name="l1">Level1</string>
+    <string name="l2">Level2</string>
+    <string name="l3">Level3</string>
+    <string name="l4">Level4</string>
+    <string name="l5">Level5</string>
+    <string name="score">score: </string>
+</resources>

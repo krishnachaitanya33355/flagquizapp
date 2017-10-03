@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ubuntu.flagquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/greaticon"
+        android:label="FlagQuiz"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".level1" />
+        <activity android:name=".level2" />
+        <activity android:name=".level3" />
+        <activity android:name=".level4" />
+        <activity android:name=".level5" />
+        <activity android:name=".level1q2" />
+        <activity android:name=".level1q3" />
+        <activity android:name=".level1q4" />
+        <activity android:name=".level1q5" />
+        <activity android:name=".level1q6" />
+        <activity android:name=".level1q7" />
+        <activity android:name=".level1q8" />
+        <activity android:name=".level1q9" />
+        <activity android:name=".level1q10" />
+        <activity android:name=".level2q2" />
+        <activity android:name=".level2q3" />
+        <activity android:name=".level2q4" />
+        <activity android:name=".level2q5" />
+        <activity android:name=".level2q6" />
+        <activity android:name=".level2q7" />
+        <activity android:name=".level2q8" />
+        <activity android:name=".level2q9" />
+        <activity android:name=".level2q10" />
+        <activity android:name=".level3q2" />
+        <activity android:name=".level3q3" />
+        <activity android:name=".level3q4" />
+        <activity android:name=".level3q5" />
+        <activity android:name=".level3q6" />
+        <activity android:name=".level3q7" />
+        <activity android:name=".level3q8" />
+        <activity android:name=".level3q9" />
+        <activity android:name=".level3q10" />
+        <activity android:name=".level4q2" />
+        <activity android:name=".level4q3" />
+        <activity android:name=".level4q4" />
+        <activity android:name=".level4q5" />
+        <activity android:name=".level4q6" />
+        <activity android:name=".level4q7" />
+        <activity android:name=".level4q8" />
+        <activity android:name=".level4q9" />
+        <activity android:name=".level4q10" />
+        <activity android:name=".level5q2" />
+        <activity android:name=".level5q3" />
+        <activity android:name=".level5q4" />
+        <activity android:name=".level5q5" />
+        <activity android:name=".level5q6" />
+        <activity android:name=".level5q7" />
+        <activity android:name=".level5q8" />
+        <activity android:name=".level5q9" />
+        <activity android:name=".level5q10"></activity>
+    </application>
+
+</manifest>

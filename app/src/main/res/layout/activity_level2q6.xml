@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ubuntu.flagquiz.level2q6">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="40sp"
+            android:id="@+id/textView26" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView26"
+            android:src="@drawable/philippines"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView26"
+            android:layout_toEndOf="@+id/textView26"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp" />
+    </RelativeLayout>
+
+    <Button
+        android:onClick="butt261"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="south sudan"
+        android:textAllCaps="true"
+        android:id="@+id/button261"
+        android:layout_marginTop="68dp"
+        />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt262"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="palestine"
+        android:id="@+id/button262" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt263"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="comoros"
+        android:id="@+id/button263" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt264"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="philippines"
+        android:id="@+id/button264"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

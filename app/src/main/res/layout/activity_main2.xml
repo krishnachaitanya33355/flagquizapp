@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#325678"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_weight="5"
+    tools:context="com.example.ubuntu.flagquiz.Main2Activity">
+
+    <Button
+        android:onClick="leone"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#96ceb4"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:paddingLeft="40dp"
+        android:text="@string/l1"
+        android:textColor="#8c856c" />
+
+    <Button
+        android:onClick="letwo"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#ffeead"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/l2"
+        android:textColor="#8c856c" />
+
+    <Button
+        android:onClick="lethree"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#ff6f69"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/l3"
+        android:textColor="#8c856c" />
+
+    <Button
+        android:onClick="lefour"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#ffcc5c"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:text="@string/l4"
+        android:textColor="#8c856c" />
+
+    <Button
+        android:onClick="lefive"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#88d8b0"
+        android:gravity="center_vertical"
+        android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/l5"
+        android:textColor="#8c856c" />
+
+</LinearLayout>

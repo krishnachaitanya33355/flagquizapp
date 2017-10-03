@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ubuntu.flagquiz.level5q10">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="40sp"
+            android:id="@+id/textView510" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView510"
+            android:src="@drawable/swaziland"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView510"
+            android:layout_toEndOf="@+id/textView510"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp" />
+    </RelativeLayout>
+
+    <Button
+        android:onClick="butt5101"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="barbados"
+        android:textAllCaps="true"
+        android:id="@+id/button5101"
+        android:layout_marginTop="68dp"
+        />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt5102"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="saint kitts and nevis"
+        android:id="@+id/button5102" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt5103"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="saint lucia"
+        android:id="@+id/button5103" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt5104"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="swaziland"
+        android:id="@+id/button5104"/>
+
+
+
+</LinearLayout>

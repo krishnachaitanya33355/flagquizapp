@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ubuntu.flagquiz.level3q8">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="40sp"
+            android:id="@+id/textView38" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView38"
+            android:src="@drawable/italy"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView38"
+            android:layout_toEndOf="@+id/textView38"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp" />
+    </RelativeLayout>
+
+    <Button
+        android:onClick="butt381"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="luxemborg"
+        android:textAllCaps="true"
+        android:id="@+id/button381"
+        android:layout_marginTop="68dp"
+        />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt382"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="belarus"
+        android:id="@+id/button382" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt383"
+        android:layout_weight="1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="netherlands"
+        android:id="@+id/button383" />
+
+    <Button
+        android:textAllCaps="true"
+        android:onClick="butt384"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="italy"
+        android:id="@+id/button384"/>
+
+
+
+
+
+
+
+</LinearLayout>
